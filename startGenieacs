@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run -d -p 3000:3000 -p 7547:7547 genieacs
+docker run -d -p 3000:3000 -p 7547:7547 -i --entrypoint="/bin/bash" genieacs

@@ -5,6 +5,7 @@ docker build -t genieacs .
 To run:
 ==
 use startGenieacs script
+attach to the container, and run ./genieacs-start.sh
 
 Access
 ==

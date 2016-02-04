@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run -d -p 3000:3000 -p 7547:7547 -e VIRTUAL_HOST=genieacs.pavlovmedia.net -e VIRTUAL_PORT=3000 -i --entrypoint="/bin/bash" genieacs
+docker run -d -p 3000:3000 -p 7547:7547 -p 7557:7557 -e VIRTUAL_HOST=genieacs.dev.pavlovmedia.corp -e VIRTUAL_PORT=7557 -i --entrypoint="/bin/bash" genieacs
